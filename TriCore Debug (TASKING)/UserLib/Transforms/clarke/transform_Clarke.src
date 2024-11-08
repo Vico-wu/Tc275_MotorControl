@@ -1,0 +1,406 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc6288a --dep-file=UserLib/Transforms/clarke/transform_Clarke.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001 -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Configurations -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Drivers -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Drivers\\\\Pwm -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Infra -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Service -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\UserLib -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\UserLib\\\\Common -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\UserLib\\\\Transforms -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\UserLib\\\\Transforms\\\\clarke -IC:\\\\Users\\\\WQU3WX\\\\AURIX-v1.10.6-workspace\\\\TC275_MotorControl_001\\\\UserLib\\\\Transforms\\\\park -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o UserLib/Transforms/clarke/transform_Clarke.src ../UserLib/Transforms/clarke/transform_Clarke.c"
+	.compiler_name		"ctc"
+	;source	'../UserLib/Transforms/clarke/transform_Clarke.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.transform_Clarke.transform_iClarke',code,cluster('transform_iClarke')
+	.sect	'.text.transform_Clarke.transform_iClarke'
+	.align	2
+	
+	.global	transform_iClarke
+; Function transform_iClarke
+.L3:
+transform_iClarke:	.type	func
+	mov	d15,d4
+.L36:
+	mov	d8,d5
+.L38:
+	mov.aa	a15,a5
+.L39:
+	mov.aa	a12,a6
+.L40:
+	st.w	[a4],d15
+.L52:
+	movh	d4,#16448
+.L35:
+	call	sqrt
+.L34:
+	insn.t	d0,d15:31,d15:31
+.L53:
+	madd.f	d0,d0,d2,d8
+.L54:
+	movh	d1,#16384
+.L55:
+	div.f	d0,d0,d1
+.L56:
+	st.w	[a15],d0
+.L57:
+	insn.t	d15,d15:31,d15:31
+.L37:
+	movh	d4,#16448
+	call	sqrt
+.L58:
+	msub.f	d15,d15,d2,d8
+.L59:
+	movh	d0,#16384
+.L60:
+	div.f	d15,d15,d0
+.L61:
+	st.w	[a12],d15
+.L62:
+	ret
+.L20:
+	
+__transform_iClarke_function_end:
+	.size	transform_iClarke,__transform_iClarke_function_end-transform_iClarke
+.L14:
+	; End of function
+	
+	.sdecl	'.text.transform_Clarke.transform_Clarke',code,cluster('transform_Clarke')
+	.sect	'.text.transform_Clarke.transform_Clarke'
+	.align	2
+	
+	.global	transform_Clarke
+; Function transform_Clarke
+.L5:
+transform_Clarke:	.type	func
+	mov.aa	a15,a5
+.L43:
+	st.w	[a4],d4
+.L67:
+	movh	d15,#16384
+.L68:
+	madd.f	d15,d4,d5,d15
+.L69:
+	movh	d4,#16448
+.L41:
+	call	sqrt
+.L42:
+	div.f	d15,d15,d2
+.L70:
+	st.w	[a15],d15
+.L71:
+	ret
+.L28:
+	
+__transform_Clarke_function_end:
+	.size	transform_Clarke,__transform_Clarke_function_end-transform_Clarke
+.L19:
+	; End of function
+	
+	.calls	'transform_iClarke','sqrt'
+	.calls	'transform_Clarke','sqrt'
+	.calls	'transform_iClarke','',0
+	.extern	sqrt
+	.calls	'transform_Clarke','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L7:
+	.word	295
+	.half	3
+	.word	.L8
+	.byte	4
+.L6:
+	.byte	1
+	.byte	'../UserLib/Transforms/clarke/transform_Clarke.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WQU3WX\\AURIX-v1.10.6-workspace\\TC275_MotorControl_001\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L9
+.L21:
+	.byte	2
+	.byte	'float',0,4,4
+.L24:
+	.byte	3
+	.word	231
+	.byte	4
+	.byte	'sqrt',0,1,186,1,25
+	.word	231
+	.byte	1,1,1,1,5,1,186,1,43
+	.word	231
+	.byte	0,6,1,3
+	.word	273
+	.byte	7
+	.byte	'__codeptr',0,2,1,1
+	.word	275
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L8:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,15,0,73,19,0,0,4,46,1,3,8,58
+	.byte	15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,5,5,0,58,15,59,15,57,15,73,19,0,0,6,21,0,54,15,0,0,7
+	.byte	22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L9:
+	.word	.L45-.L44
+.L44:
+	.half	3
+	.word	.L47-.L46
+.L46:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.6\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'math.h',0,1,0,0
+	.byte	'../UserLib/Transforms/clarke/transform_Clarke.c',0,0,0,0,0
+.L47:
+.L45:
+	.sdecl	'.debug_info',debug,cluster('transform_iClarke')
+	.sect	'.debug_info'
+.L10:
+	.word	366
+	.half	3
+	.word	.L11
+	.byte	4,1
+	.byte	'../UserLib/Transforms/clarke/transform_Clarke.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WQU3WX\\AURIX-v1.10.6-workspace\\TC275_MotorControl_001\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L13,.L12
+	.byte	2
+	.word	.L6
+	.byte	3
+	.byte	'transform_iClarke',0,1,57,6,1,1,1
+	.word	.L3,.L20,.L2
+	.byte	4
+	.byte	'Ialpha',0,1,57,30
+	.word	.L21,.L22
+	.byte	4
+	.byte	'Ibeta',0,1,57,44
+	.word	.L21,.L23
+	.byte	4
+	.byte	'Ia',0,1,57,58
+	.word	.L24,.L25
+	.byte	4
+	.byte	'Ib',0,1,57,69
+	.word	.L24,.L26
+	.byte	4
+	.byte	'Ic',0,1,57,80
+	.word	.L24,.L27
+	.byte	5
+	.word	.L3,.L20
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('transform_iClarke')
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('transform_iClarke')
+	.sect	'.debug_line'
+.L12:
+	.word	.L49-.L48
+.L48:
+	.half	3
+	.word	.L51-.L50
+.L50:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../UserLib/Transforms/clarke/transform_Clarke.c',0,0,0,0,0
+.L51:
+	.byte	5,6,7,0,5,2
+	.word	.L3
+	.byte	3,56,1,5,9,9
+	.half	.L40-.L3
+	.byte	3,2,1,5,27,9
+	.half	.L52-.L40
+	.byte	3,1,1,5,12,9
+	.half	.L34-.L52
+	.byte	1,5,20,9
+	.half	.L53-.L34
+	.byte	1,5,43,9
+	.half	.L54-.L53
+	.byte	1,5,41,9
+	.half	.L55-.L54
+	.byte	1,5,9,9
+	.half	.L56-.L55
+	.byte	1,5,12,9
+	.half	.L57-.L56
+	.byte	3,1,1,5,27,9
+	.half	.L37-.L57
+	.byte	1,5,20,9
+	.half	.L58-.L37
+	.byte	1,5,43,9
+	.half	.L59-.L58
+	.byte	1,5,41,9
+	.half	.L60-.L59
+	.byte	1,5,9,9
+	.half	.L61-.L60
+	.byte	1,5,1,9
+	.half	.L62-.L61
+	.byte	3,1,1,7,9
+	.half	.L14-.L62
+	.byte	0,1,1
+.L49:
+	.sdecl	'.debug_ranges',debug,cluster('transform_iClarke')
+	.sect	'.debug_ranges'
+.L13:
+	.word	-1,.L3,0,.L14-.L3,0,0
+	.sdecl	'.debug_info',debug,cluster('transform_Clarke')
+	.sect	'.debug_info'
+.L15:
+	.word	365
+	.half	3
+	.word	.L16
+	.byte	4,1
+	.byte	'../UserLib/Transforms/clarke/transform_Clarke.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WQU3WX\\AURIX-v1.10.6-workspace\\TC275_MotorControl_001\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L18,.L17
+	.byte	2
+	.word	.L6
+	.byte	3
+	.byte	'transform_Clarke',0,1,63,6,1,1,1
+	.word	.L5,.L28,.L4
+	.byte	4
+	.byte	'Ia',0,1,63,29
+	.word	.L21,.L29
+	.byte	4
+	.byte	'Ib',0,1,63,39
+	.word	.L21,.L30
+	.byte	4
+	.byte	'Ic',0,1,63,49
+	.word	.L21,.L31
+	.byte	4
+	.byte	'Ialpha',0,1,63,60
+	.word	.L24,.L32
+	.byte	4
+	.byte	'Ibeta',0,1,63,75
+	.word	.L24,.L33
+	.byte	5
+	.word	.L5,.L28
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('transform_Clarke')
+	.sect	'.debug_abbrev'
+.L16:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('transform_Clarke')
+	.sect	'.debug_line'
+.L17:
+	.word	.L64-.L63
+.L63:
+	.half	3
+	.word	.L66-.L65
+.L65:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../UserLib/Transforms/clarke/transform_Clarke.c',0,0,0,0,0
+.L66:
+	.byte	5,6,7,0,5,2
+	.word	.L5
+	.byte	3,62,1,5,13,9
+	.half	.L43-.L5
+	.byte	3,2,1,5,20,9
+	.half	.L67-.L43
+	.byte	3,1,1,5,18,9
+	.half	.L68-.L67
+	.byte	1,5,35,9
+	.half	.L69-.L68
+	.byte	1,5,28,9
+	.half	.L42-.L69
+	.byte	1,5,12,9
+	.half	.L70-.L42
+	.byte	1,5,1,9
+	.half	.L71-.L70
+	.byte	3,1,1,7,9
+	.half	.L19-.L71
+	.byte	0,1,1
+.L64:
+	.sdecl	'.debug_ranges',debug,cluster('transform_Clarke')
+	.sect	'.debug_ranges'
+.L18:
+	.word	-1,.L5,0,.L19-.L5,0,0
+	.sdecl	'.debug_loc',debug,cluster('transform_Clarke')
+	.sect	'.debug_loc'
+.L29:
+	.word	-1,.L5,0,.L41-.L5
+	.half	1
+	.byte	84
+	.word	0,0
+.L32:
+	.word	-1,.L5,0,.L42-.L5
+	.half	1
+	.byte	100
+	.word	0,0
+.L30:
+	.word	-1,.L5,0,.L42-.L5
+	.half	1
+	.byte	85
+	.word	0,0
+.L33:
+	.word	-1,.L5,0,.L42-.L5
+	.half	1
+	.byte	101
+	.word	.L43-.L5,.L28-.L5
+	.half	1
+	.byte	111
+	.word	0,0
+.L31:
+	.word	-1,.L5,0,.L42-.L5
+	.half	1
+	.byte	86
+	.word	0,0
+.L4:
+	.word	-1,.L5,0,.L28-.L5
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('transform_iClarke')
+	.sect	'.debug_loc'
+.L25:
+	.word	-1,.L3,0,.L34-.L3
+	.half	1
+	.byte	100
+	.word	0,0
+.L22:
+	.word	-1,.L3,0,.L35-.L3
+	.half	1
+	.byte	84
+	.word	.L36-.L3,.L37-.L3
+	.half	1
+	.byte	95
+	.word	0,0
+.L26:
+	.word	-1,.L3,0,.L34-.L3
+	.half	1
+	.byte	101
+	.word	.L39-.L3,.L20-.L3
+	.half	1
+	.byte	111
+	.word	0,0
+.L23:
+	.word	-1,.L3,0,.L34-.L3
+	.half	1
+	.byte	85
+	.word	.L38-.L3,.L20-.L3
+	.half	1
+	.byte	88
+	.word	0,0
+.L27:
+	.word	-1,.L3,0,.L34-.L3
+	.half	1
+	.byte	102
+	.word	.L40-.L3,.L20-.L3
+	.half	1
+	.byte	108
+	.word	0,0
+.L2:
+	.word	-1,.L3,0,.L20-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L72:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('transform_iClarke')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L72,.L3,.L20-.L3
+	.sdecl	'.debug_frame',debug,cluster('transform_Clarke')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L72,.L5,.L28-.L5
+	; Module end
